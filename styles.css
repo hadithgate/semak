@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Traditional+Naskh&display=swap');
+
+body {
+    font-family: 'Arial', sans-serif;
+    font-size: 22px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #c0edaa;
+}
+
+.title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.paragraph-box {
+    width: 800px;
+    height: 100px;
+    border: 2px solid #ccc;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    font-size: 22px;
+    margin-bottom: 20px;
+    background-color: white;
+    overflow-y: auto;
+    direction: rtl;
+    text-align: right;
+}
+
+.box.result {
+    width: 250px;
+    height: 50px;
+    background-color: white;
+    font-size: 22px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    border: groove;
+}
+
+.content-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 1000px;
+    margin-top: 20px;
+}
+
+.additional-info {
+    font-size: 18px;
+    color: #555;
+    padding: 25px;
+    border: 2px solid #ccc;
+    background-color: #e3f255;
+    width: 600px;
+    text-align: left;
+}
+
+table {
+    border-collapse: collapse;
+    width: 300px;
+    margin-left: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #9ad1cc;
+}
+
+.color-box {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+}
+
+.button-container {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 22px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: outset;
+    border-radius: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.highlight {
+    padding: 2px 4px;
+    border-radius: 3px;
+    cursor: pointer;
+}
