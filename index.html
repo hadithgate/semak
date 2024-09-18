@@ -9,18 +9,27 @@
 </head>
 <body>
     <div class="title">Semak Sanad Hadis</div>
+    
+    <!-- Content Editable Area for Input -->
     <div class="paragraph-box" contenteditable="true" id="paragraphBox">
         Masukkan sanad di sini...
     </div>
+
+    <!-- Buttons for Actions -->
     <div class="button-container">
-        <a href="https://sites.google.com/view/i-sanad/aplikasi-latihan/latihan-semak-sanad-hadis" target="_blank">
-            <button>Buat Baru</button>
-        </a>
-        <button onclick="generateResult()">Semak</button>
+        <!-- Corrected Button Link - Using a styled button instead of nesting button inside anchor -->
+        <a href="https://sites.google.com/view/i-sanad/aplikasi-latihan/latihan-semak-sanad-hadis" target="_blank" class="button" aria-label="Buat Baru">Buat Baru</a>
+        <button onclick="generateResult()" aria-label="Semak Sanad">Semak</button>
     </div>
+
+    <!-- Result Box for Displaying Final Decision -->
     <div class="box result" id="resultBox">Keputusan: </div>
+
+    <!-- Content Area with Additional Information -->
     <div class="content-container">
         <div class="additional-info" id="additionalInfoBox">Komentar ulama tentang perawi: Sila klik di atas nama perawi</div>
+        
+        <!-- Table for Explanation of Colors and Categories -->
         <table>
             <thead>
                 <tr>
